@@ -46,3 +46,5 @@ name1 = "mumtaz"[-1::-1]
 print(f"Mumtaz[-1::-1] {name1}")
 name2 = input("Enter your name:")
 print(name2[::-1])
+
+print("this is for test")
