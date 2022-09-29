@@ -39,4 +39,6 @@ for alien in aliens1[:5]:
 print("\n-----------------------------------------------")
 
 
+def add(num1, num2):
 
+    return num1 + num2

@@ -40,7 +40,7 @@ for lan in set(favorite_languages.values()):
 
 #TRY IT YOURSELF
 #6-4- Glossary 2
-
+print("6-4--------------")
 glossary = {
     'string': 'A series of characters.',
     'comment': 'A note in a program that the Python interpreter ignores.',

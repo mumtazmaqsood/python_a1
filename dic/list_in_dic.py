@@ -9,7 +9,7 @@ print(f"you ordered a pizza {pizza['crust']} crust-pizza "
 for topping in pizza['toppings']:
     print(f"  {topping}")
 
-
+print("favourite languages-------------------")
 #favorite languages
 favorite_languages = {
     'mumtaz': ['python', 'js', 'c'],

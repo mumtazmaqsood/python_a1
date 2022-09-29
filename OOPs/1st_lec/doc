@@ -1,0 +1,10 @@
+we can create a class without __init__() method but if this method has been created then it called first and what are
+the variables inside, must be given , otherwise there will be error, in init() method ,
+object or instance variable can be created, as it written above that some attributes has te same values →
+called class variables but some attributes values are not same → obj or instance variables,
+like in above samsungGlasxay7 example, may be all attribute is the fixed values but phone has different color,
+ in that case if we treat this color attribute as class then all the cell has the same color,
+ in order to resolve this issue, we create a init() method and pass color variable so everytime when obj created
+ then this color pass to the class and it will associate to specific obj and whenever we call that obj
+  then its color will the same as what has given while creating its obj
+self → keyword is getting obj reference mean
