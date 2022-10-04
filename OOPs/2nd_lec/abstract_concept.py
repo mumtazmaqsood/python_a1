@@ -83,6 +83,13 @@ h_obj.sides()
 
 
 
-
+str1 = 'Python'
+str2 = str1[2:] + str1[:2]
+print(str2)
+# str1[2:] --> thon and str1[:2] --> Py
+# in str2 = thonPy
+# 2*str2 = thonPythonPy
+print( str1 in 2*str2)
+#definetely its True
 
 
