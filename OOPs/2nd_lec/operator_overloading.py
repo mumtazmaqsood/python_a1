@@ -24,3 +24,27 @@ s2  = Student(10, 20)
 s = s1 + s2
 print(s.m1, s.m2)
 print(s1 > s2)
+
+
+# another example method overriding
+class Student:
+    def useLibrary(self):
+        print("Reading Books")
+        print("Making notest")
+
+s1 = Student()
+
+class Teacher:
+    def useLibrary(self):
+        print("Reading Books")
+        print("Making notest")
+        print("Preparing Question Papers")
+t1 = Teacher()
+
+class Library:
+    def welcome(self, obj):
+        obj.useLibrary()
+
+lib = Library()
+lib.welcome(s1)
+lib.welcome(t1)
