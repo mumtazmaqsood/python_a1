@@ -34,7 +34,7 @@ def show_completed_models(completed_models):
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
-#unprinted_designs[:] will pass the copy of the list -- if this syntax is not used then all data will be earsed and empty list printed
+#unprinted_designs[:] will pass the copy of the list -- if this syntax is not used then all data.txt will be earsed and empty list printed
 #
 print_model(unprinted_designs[:], completed_models)
 if "iphone case" in completed_models:

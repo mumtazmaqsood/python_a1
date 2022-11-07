@@ -71,6 +71,18 @@ def car_info(manufacturer, model_name, **arg):
 car_dic = car_info('BMW', 'S', COLOR = 'BLUE', TOW_PACKAGE = 'True')
 print(car_dic)
 
+# --------------------------------------------
+
+def user_detials(name, email, *other_details):
+    # print(f"name:{name}, email:{email}")
+    other_detail = []
+    for val in other_details:
+        other_detail.append(val)
+    return name, email, other_detail
+data = user_detials("Mumtaz", "mm@yahoo.com", 40, "Copenhagen" )
+# username, email, data_list = data.txt
+print(data)
+#in *other_detaisl user can enter more details and at the end it will return in sets
 
 
 

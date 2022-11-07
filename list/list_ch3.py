@@ -2,7 +2,7 @@
 names = ['gul andam', 'Shahbaz', 'Afnan', "test"]
 print(names)
 
-#list is the ordered collection of the data and can access list data by writing index
+#list is the ordered collection of the data.txt and can access list data.txt by writing index
 #print(names[0])
 print(names[0].title())
 
@@ -14,7 +14,7 @@ names[3] = "Mumtaz"
 print(names)
 
 # append method use to add the list item in the end while insert method can add item anywhere in the list
-#names.insert(index, 'data')
+#names.insert(index, 'data.txt')
 names.append("Fadia")
 print(names)
 

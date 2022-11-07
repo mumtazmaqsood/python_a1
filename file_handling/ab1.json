@@ -1,0 +1,21 @@
+[
+   {
+      "ID": "0PQKN9CARCE",
+      "Country": "PL - Poland",
+      "Division": "SOLUTIONS",
+      "InvoicesCount": 7,
+      "PagesCount": 21,
+      "Status": "MISSING DATA",
+      "UserTime": null,
+      "Date": "2022-06-10 20:12:59",
+      "Assignee": "dummy.user_27@dsv.com",
+      "Exporter": "70185",
+      "ProcessingTime": 160,
+      "Details": {
+         "FailReason": null,
+         "MissingReason": "No documents found",
+         "SuccessMessage": null
+      },
+      "EORI": "GB123456890024"
+   }
+]

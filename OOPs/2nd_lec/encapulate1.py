@@ -1,4 +1,4 @@
-#data memeber are open, same Car has been inherited in ec1
+#data.txt memeber are open, same Car has been inherited in ec1
 #in this class make getter and setter method, so that user should not change its attribute values
 #if want to see or need to change the value, it should go through methods
 

@@ -1,0 +1,23 @@
+IP Address;Printer Vendor;Username;Password
+;;;
+192.168.100.210-229;;;
+192.168.100.208;Samsung-Printer;admin;sec00000
+192.168.100.210;HP-Printer;admin;123HP:>:>
+192.168.100.148;Sharp-Printer;admin;123Sharp:>:>
+192.168.100.212;KM-Printer;;123KM:>:>
+192.168.100.213;Ricoh-Printer;admin;
+192.168.100.106;Xerox-Printer;admin;1111
+192.168.100.139/;Lexmark-Printer (CX625ADHE)--> esf6;admin;123Lexmark:>:>
+192.168.100.159;Lexmark-Printer (MS812dn) --> esf4;admin;123Lexmark:>:>
+192.168.100.189;Lexmark-Printer (CX735adse) -->;admin;123Lexmark:>:>
+192.168.100.100;Lexmark-Printer (C792) --> esf3;admin;123Lexmark:>:>
+192.168.100.215;Lexmark-Printer;admin;123Lexmark:>:>
+192.168.100.216;HP-Printer, Intern;admin;admin
+192.168.100.217;Kyocera-Printer;Admin;123Kyocera:>:>
+192.168.100.166;Ricoh IMC ;admin;system@emea
+192.168.100.192;Brother;;123Brother:>:>
+192.168.100.220;HP-Printer;admin;123HP:>:>
+192.168.100.221;HP-Printer;admin;123HP:>:>
+192.168.100.108;Brother (MFC-L5750DW);;123Brother:>:>
+192.168.100.129;ESX Server;;
+192.168.100.147;Intel NUC for testpurpose, LAH, TAA;;
