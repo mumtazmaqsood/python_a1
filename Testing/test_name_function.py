@@ -22,7 +22,8 @@ class NamesTestCase(unittest.TestCase):
     def test_city_country(self):
         self.assertEqual(city_function('sahiwal','pakistan'), "'sahiwal', 'pakistan'")
 
-
+    def test_city_country_population(self):
+        self.assertEqual(city_function('sahiwal','pakistan','250000000'), "'sahiwal', 'pakistan' 250000000")
 
 if __name__ == '__main__':
     unittest.main()
