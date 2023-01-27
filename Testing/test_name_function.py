@@ -1,6 +1,6 @@
 
 import unittest
-from fun import get_formatted_name
+from fun import *
 
 class NamesTestCase(unittest.TestCase):
     """Tests for 'fun.py'"""
@@ -16,6 +16,13 @@ class NamesTestCase(unittest.TestCase):
 # #what is the behaviour if user given numbers values
 #     def test_given_number_value(self):
 #         self.assertEqual(get_formatted_name(123,456), '123 456')
+
+
+    #tests for def city_function(city_name, country_name):
+    def test_city_country(self):
+        self.assertEqual(city_function('sahiwal','pakistan'), "'sahiwal', 'pakistan'")
+
+
 
 if __name__ == '__main__':
     unittest.main()
